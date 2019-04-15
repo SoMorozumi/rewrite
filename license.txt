@@ -1,4 +1,4 @@
-rewrite.accelf.net からアクセスできる storage.accelf.net/rewrite 以下のすべてのファイルは以下のライセンスの下で提供されます。
+rewrite.accelf.net からアクセスできる storage.accelf.net/public/rewrite 以下のすべてのファイルは以下のライセンスの下で提供されます。
 
 1. 提供されるすべてのファイルについて、一切の改変・再配布・個人利用を超えた範囲での利用を禁止します。
 
