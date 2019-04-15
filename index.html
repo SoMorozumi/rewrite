@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="robots" content="noindex" />
+
+    <title>新・大学入試英語問題選</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col m6 s12">
+        <h1 class="title">新・大学入試英語問題選</h1>
+        <span class="subtitle">==リスニング音源==</span>
+
+        <div class="card-panel">
+          新・大学入試英語問題選 リスニング問題の音源を提供しています。<br />
+          どなたでも利用可能ですが、このページ下部に記載されているライセンスを厳守してください。<br />
+          単一ファイルの再生はこのページのインラインプレイヤーから実行できます。<br />
+          全ファイルの一括ダウンロードはこの下のリンクを利用してください。<br />
+          音声ファイルは全て320KbpsのMP3形式で、一括ダウンロードはzip圧縮形式です。<br />
+          ファイルはすべて<span class="code">storage.accelf.net</span>から提供されます。<br />
+        </div>
+
+        <div class="col m4 s12 download-button valign-wrapper">
+          <a class="waves-effect waves-light btn" download="新・大学入試英語問題選.zip"
+            href="https://storage.accelf.net/public/rewrite/%E6%96%B0%E3%83%BB%E5%A4%A7%E5%AD%A6%E5%85%A5%E8%A9%A6%E8%8B%B1%E8%AA%9E%E5%95%8F%E9%A1%8C%E9%81%B8.zip">
+            <i class="fas fa-download left"></i>Download ALL
+          </a>
+        </div>
+        <div class="col m8 s12">
+          <span class="code single-line">
+            <i class="far fa-clipboard left clipboard"></i>
+            link: <span class="copy">https://storage.accelf.net/public/rewrite/%E6%96%B0%E3%83%BB%E5%A4%A7%E5%AD%A6%E5%85%A5%E8%A9%A6%E8%8B%B1%E8%AA%9E%E5%95%8F%E9%A1%8C%E9%81%B8.zip</span>
+          </span><br />
+          <span class="code single-line clipboard"><i class="far fa-clipboard left"></i>md5: <span class="copy">e447adec31da356a4eed46f3d1938753</span></span>
+        </div>
+      </div>
+
+      <div class="col m6 s12">
+        <br />
+        <br />
+        <span class="subtitle">INLINE PLAYER</span><br />
+        <label>Track No.</label>
+        <select id="player-selecter" class="browser-default">
+          <option value="" disabled selected>Select question number</option>
+        </select>
+        <br />
+        <br />
+
+        <div id="no-player">
+          <span class="disabled">==INLINE MUSIC PLAYER==</span>
+        </div>
+
+        <div id="player-container" class="hide">
+          <audio id="player" controls src=""></audio>
+          <div>
+            正常に再生できない場合、以下の直接再生かダウンロードを利用してください。
+          </div>
+          <br />
+          <br />
+          <a id="new-tab" target="_blank" class="waves-effect waves-light btn"><i class="fas fa-external-link-square-alt left"></i>Open in New Tab</a>
+          <br />
+          <br />
+          <div class="col m4 s12 download-button valign-wrapper">
+            <a id="single-download" class="waves-effect waves-light btn"><i class="fas fa-download left"></i>Download</a>
+          </div>
+          <div class="col m8 s12">
+            <span class="code single-line">
+              <i class="far fa-clipboard left clipboard"></i>
+              link: <span id="single-download-link" class="copy"></span>
+            </span><br />
+            <span class="code single-line clipboard"><i class="far fa-clipboard left"></i>md5: <span id="single-download-md5" class="copy"></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <p class="disabled">
+        Files hosted on <span class="code">rewrite.accelf.net</span> are available under <a href="./mit.txt">this license</a>.<br />
+        Files hosted on <span class="code">storage.accelf.net/rewrite</span> are available under <a href="./license.txt">this license</a>.
+      </p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
