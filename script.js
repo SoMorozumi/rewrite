@@ -51,6 +51,7 @@ function update() {
       $("#no-player").addClass("hide");
       $("#player-container.hide").removeClass("hide");
 
+      $("#player-selecter").val(item["name"]);
       $("#player").attr("src", item["url"]);
       $("#new-tab").attr("href", item["url"]);
       $("#single-download").attr("href", item["url"]);
